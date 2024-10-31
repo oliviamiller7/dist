@@ -1,0 +1,29 @@
+body{
+  margin: 20px;
+}
+
+h1{
+  font-family: Times New Roman;
+  font-size: 42px;
+}
+
+h3, h4, p, figcaption{
+  font-family: Helvetica;
+}
+
+.first, .second, .third {
+  height: 425px;
+  padding: 5px;
+  width: 30%;
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: top;
+}
+
+.second, .third {
+  border-left: 2px solid black;
+}
+
+hr{
+  margin: 40px 0px;
+}
