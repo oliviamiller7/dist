@@ -1,0 +1,40 @@
+html>
+<head>
+    <style>
+        .flourish-container {
+            /* Custom margin settings */
+            margin: 40px;
+            padding: 20px;
+            /* Optional border to visualize margins */
+            border: 1px solid #ccc;
+        }
+
+        /* Responsive margin adjustments */
+        @media screen and (max-width: 768px) {
+            .flourish-container {
+                margin: 20px;
+                padding: 10px;
+            }
+        }
+
+        /* Ensure the visualization is responsive */
+        .flourish-embed {
+            width: 100%;
+            height: 100%;
+            min-height: 500px;
+        }
+    </style>
+</head>
+<body>
+    <div class="flourish-container">
+        <!-- Replace [VISUALIZATION_ID] with your Flourish visualization ID -->
+        <div class="flourish-embed" 
+             data-src="[https://flo.uri.sh/visualisation/20044170/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%;height:600px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'>div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/visualisation/20044170/?utm_source=embed&utm_campaign=visualisation/20044170' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' 
+             data-height="600px">
+        </div>
+    </div>
+
+    <!-- Flourish embedding script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flourish/3.0.0/flourish.min.js"></script>
+</body>
+</html>
